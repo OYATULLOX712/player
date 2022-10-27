@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MUSIC PLAYER</title>
+</head>
+
+<body>
+    <section class="video">
+        <div class="container">
+            <video class="video-mp3" src="./gansta.m4a" loop></video>
+            <div class="video-media">
+                <div class="video-progress">
+                    <p class="video-time" id="start">00:00</p>
+                    <div class="video-duration">
+                        <div class="video-line">
+                            <div class="video-ruler"></div>
+                        </div>
+                    </div>
+                    <p class="video-time" id="end">00:00</p>
+
+                </div>
+                <div class="content">
+                    <div class="video-controls">
+                        <i class=" video__prev fas "></i>
+                        <i class=" video__play fas "></i>
+                        <i class=" video__next fas "></i>
+                    </div>
+                    <div class="video-volume">
+                        <i class="far video__volume-icon">
+                            <div class="normal"></div>
+                        </i>
+                        <input type="range" class="video__volume-range">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
